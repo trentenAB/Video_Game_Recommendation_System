@@ -23,4 +23,8 @@ ________________________________________________________________________________
 - `rating` = User's score of game
 - `review` = User's review
 
+## Pre-Processing
+## EDA
+## ML
+
 ## Still in Progress...
