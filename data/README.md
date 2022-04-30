@@ -1,4 +1,4 @@
-### Game set
+### Game Set
 - `title` = Game Title
 - `release_date` = Release Date (Games on multiple platforms will have a seperate row per release date)
 - `genre` = Genres
@@ -13,3 +13,10 @@
 - `user_reviews` = Number of user reviews 
 - `num_players` = Description of how many players allowed on game
 - `summary` = Summary of game
+__________________________________________________________________________________
+### Review Set
+- `name` = User Name
+- `date` = Date of Review
+- `game` = Game Title
+- `rating` = User's score of game
+- `review` = User's review
