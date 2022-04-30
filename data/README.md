@@ -1,0 +1,14 @@
+### Game set
+- game
+-  'release_date',
+-   'genre'
+-    'platforms'
+-     'developer'
+-      'esrb_rating'
+-       'ESRBs'
+-        'metascore'
+-         'userscore' 
+-         'critic_reviews'
+-          'user_reviews'
+-           'num_players'
+-            'summary'
