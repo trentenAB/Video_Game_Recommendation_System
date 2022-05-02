@@ -17,7 +17,7 @@
 - `summary` = Summary of game
 __________________________________________________________________________________
 ### Review Set
-- `name` = User Name
+- `user` = User id
 - `date` = Date of Review
 - `game` = Game Title
 - `rating` = User's score of game
