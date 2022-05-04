@@ -18,7 +18,6 @@
 __________________________________________________________________________________
 ### Review Set
 - `user` = User id
-- `date` = Date of Review
 - `game` = Game Title
 - `rating` = User's score of game
 - `review` = User's review
