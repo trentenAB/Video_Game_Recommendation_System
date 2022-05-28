@@ -32,6 +32,6 @@ ________________________________________________________________________________
 - `rating` = User's score of game
 - `review` = User's review
 
-# EDA
+# [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
 # Pre-Processing/Modeling
 
