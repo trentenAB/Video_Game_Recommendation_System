@@ -1,9 +1,9 @@
 ![Banner](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/VGR%20Banner.png)
-## Collection
+# Collection
 The data was scraped off of MetaCritic's [Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List<br><br>
 __Libraries__: requests, BeautifulSoup, pandas, numpy, playsound, yagmail, concurrent.futures
 
-## Data
+# Data
 ### Game Set
 - `title` = Game Title
 - `release_date` = Release Date (Games on multiple platforms will have a seperate row per release date)
@@ -26,6 +26,6 @@ ________________________________________________________________________________
 - `rating` = User's score of game
 - `review` = User's review
 
-## EDA
-## Pre-Processing/Modeling
+# EDA
+# Pre-Processing/Modeling
 
