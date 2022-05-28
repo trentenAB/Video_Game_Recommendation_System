@@ -32,6 +32,9 @@ ________________________________________________________________________________
 - `rating` = User's score of game
 - `review` = User's review
 
+# [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)
+
 # [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
-# [Pre-Processing/Modeling]()
+
+# [Pre-Processing/Modeling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Preprocess%20and%20Modeling.ipynb)
 
