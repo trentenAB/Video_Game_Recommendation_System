@@ -1,6 +1,21 @@
 ![Banner](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/VGR%20Banner.png)
 ## Collection
-The data was scraped off of MetaCritic.com [Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List
+The data was scraped off of MetaCritic's [Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List
+__Libraries__: requests
+import sys
+import re
+from bs4 import BeautifulSoup as bs
+import pandas as pd, numpy as np
+import warnings
+warnings.filterwarnings(action='once')
+from icecream import ic
+from random import randint, random
+from time import sleep
+from timeit import default_timer as timer
+from playsound import playsound
+from yag import yaggit
+from concurrent import futures
+from itertools import count
 
 ## Data
 ### Game Set
