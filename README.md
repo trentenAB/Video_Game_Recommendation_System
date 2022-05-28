@@ -9,7 +9,7 @@ The data was scraped off of MetaCritic's [Best Games of All Time](https://www.me
 - yagmail: For sending an email after interruption or completion of scraping
 - concurrent.futures: For greatly reducing scraping time. It utilizes at most 32 CPU cores for executing calls asynchronously. 
 
-# [Data]()
+# [Data](https://www.kaggle.com/datasets/trentenberam/metacritic-games-all-time)
 ### Game Set
 - `title` = Game Title
 - `release_date` = Release Date (Games on multiple platforms will have a seperate row per release date)
