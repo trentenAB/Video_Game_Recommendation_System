@@ -1,4 +1,5 @@
 # Video_Game_Recommendation_System
+![Banner](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/VGR%20Banner.png)
 ## Data
 ### Game Set
 - `title` = Game Title
