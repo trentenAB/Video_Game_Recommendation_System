@@ -3,7 +3,11 @@
 The data was scraped off of MetaCritic's [Best Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List<br><br>
 <ins>__Libraries__</ins> 
 - requests: For making HTTP requests. Turns the HTML of each page into a string for parsing.  
-- BeautifulSoup, pandas, numpy, playsound, yagmail, concurrent.futures
+- BeautifulSoup: For parsing through the HTML.
+- pandas: For Data Management
+- playsound: For playing a notification sound after interruption or completion of scraping
+- yagmail: For sending an email after interruption or completion of scraping
+- concurrent.futures: For greatly reducing scraping time. It utilizes at most 32 CPU cores for executing calls asynchronously. 
 
 # Data
 ### Game Set
