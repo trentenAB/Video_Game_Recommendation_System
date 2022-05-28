@@ -1,7 +1,7 @@
 ![Banner](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/VGR%20Banner.png)
 ## Collection
-The data was scraped off of MetaCritic's [Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List<br>
-__Libraries__: requests, BeautifulSoup, pandas, numpy, playsound, yag, concurrent.futures
+The data was scraped off of MetaCritic's [Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List<br><br>
+__Libraries__: requests, BeautifulSoup, pandas, numpy, playsound, yagmail, concurrent.futures
 
 ## Data
 ### Game Set
