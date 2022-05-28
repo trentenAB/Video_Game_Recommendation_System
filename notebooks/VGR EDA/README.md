@@ -1,4 +1,4 @@
-- [Platform Counts](#pcounts)
+- [Platform Counts](Platform Counts.png)
 - [Genre Counts](#gcounts)
 - [ESRB Rating Counts](#esrb_ratings)
 - [ESRB Descriptor Counts](#esrb_descriptors)
