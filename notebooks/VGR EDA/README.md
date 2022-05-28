@@ -1,4 +1,4 @@
-- [Platform Counts](Platform Counts.png)
+- [Platform Counts](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/Platform%20Counts.png)
 - [Genre Counts](#gcounts)
 - [ESRB Rating Counts](#esrb_ratings)
 - [ESRB Descriptor Counts](#esrb_descriptors)
