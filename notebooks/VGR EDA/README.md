@@ -4,5 +4,5 @@
 - [ESRB Descriptor Counts](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/ESRB%20Descriptor%20Counts.png)
 - [Critic and User Ratings 1999-2022](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/CriticScores%20vs%20UserScores.png)
 - [Game Ratings per Platform](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/Ratings%20per%20Platform.png)
-- [Amount of Reviews 1996-2022](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/ESRB%20Rating%20Counts.png)
+- [Amount of Reviews 1996-2022](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/Amount%20of%20Reviews%20Over%20Time.png)
 - [Distribution of User Ratings](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/ESRB%20Rating%20Counts.png)
