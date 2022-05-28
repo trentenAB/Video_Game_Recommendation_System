@@ -1,1 +1,8 @@
-
+- [Platform Counts](#pcounts)
+- [Genre Counts](#gcounts)
+- [ESRB Rating Counts](#esrb_ratings)
+- [ESRB Descriptor Counts](#esrb_descriptors)
+- [Critic and User Ratings 1999-2022](#critic_user_ratings)
+- [Game Ratings per Platform](#platform)
+- [Amount of Reviews 1996-2022](#reviews)
+- [Distribution of User Ratings](#distribution)
