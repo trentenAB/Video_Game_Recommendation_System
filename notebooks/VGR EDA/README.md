@@ -1,5 +1,5 @@
-- [Platform Counts](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/Platform%20Counts.png)
-- [Genre Counts](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/Genre%20Counts.png)
+[Platform Counts](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/Platform%20Counts.png)
+[Genre Counts](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/Genre%20Counts.png)
 - [ESRB Rating Counts](#esrb_ratings)
 - [ESRB Descriptor Counts](#esrb_descriptors)
 - [Critic and User Ratings 1999-2022](#critic_user_ratings)
