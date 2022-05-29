@@ -34,15 +34,19 @@ ________________________________________________________________________________
 
 # [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)
 There wasn't too much permanent cleaning done to either dataset. For the Game Set, there were 11 entries where the `release_date` value was not a date. Some of them also happened to be the summary of that game. Because there were 11 instances, I manually searched the release date of each game, inserted it, and updated the summaries as needed. I was then able to convert `release_date` to a datetime column. 
+
 ![Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png)
 
 
 
 [//]: # (Put pictures of this process)
 
-For the Review Set, there were 10 entries where the user name was null. These happened to be pairs of duplicates and somehow pandas was able to distinguish between the different null-values. 
+For the Review Set, there were 10 entries where the user name was null. These happened to be pairs of duplicates and somehow pandas was able to distinguish between the different null-values.
+
 ![image](https://user-images.githubusercontent.com/89433717/170890328-bb1610a9-0ccf-4223-ac77-849c0a49e3f0.png)
+
 The duplicates were dropped, as well as for the rest of the dataset, and the ids were used in lieu of the user_names. 
+
 ![image](https://user-images.githubusercontent.com/89433717/170890380-5cb4f4b0-7790-4be2-b814-a049d2fbebdf.png)
 
 
