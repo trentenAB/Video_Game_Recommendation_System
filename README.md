@@ -33,7 +33,10 @@ ________________________________________________________________________________
 - `review` = User's review
 
 # [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)
-There wasn't too much permanent cleaning done to either dataset. For the Game Set, there was 11 entries where the `release_date` was not a date. 
+There wasn't too much permanent cleaning done to either dataset. For the Game Set, there were 11 entries where the `release_date` value was not a date. Some of them also happened to be the summary of that game. Because there were 11 instances, I manually searched the release date of each game, inserted it, and updated the summaries as needed. I was then able to convert `release_date` to a datetime column. 
+![Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png)
+
+
 
 [//]: # (Put pictures of this process)
 
