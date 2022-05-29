@@ -34,9 +34,13 @@ ________________________________________________________________________________
 
 # [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)
 There wasn't too much permanent cleaning done to either dataset. For the Game Set, there was 11 entries where the `release_date` was not a date. 
-[//]: <(Put pictures of this process)>
+
+[//]: # (Put pictures of this process)
+
 For the Review Set, there were 10 entries where the user name was null. These happened to be pairs of duplicates. 
-[//]: <(Put pictures of this process)>
+
+[//]: # (Put pictures of this process)
+
 Based off the abundance of null values for some of the columns, I made subsets of the data with the non-null values to use for visualizations. 
 
 # [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
