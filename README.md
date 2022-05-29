@@ -1,4 +1,4 @@
-![Banner](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/VGR%20Banner.png)
+![Banner](https://user-images.githubusercontent.com/89433717/170891205-463af589-40b0-4135-9141-66b115c70c7b.png)
 # [Collection](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/scraping_meta.ipynb)
 The data was scraped off of MetaCritic's [Best Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List<br><br>
 <ins>__Libraries__</ins> 
