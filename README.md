@@ -33,7 +33,7 @@ ________________________________________________________________________________
 - `review` = User's review
 
 # [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)
-[//] # (There wasn't too much permanent cleaning done to either dataset. Based off the abundance of null values for some of the columns, I made subsets of the data for non-null values to use for visualizations.) 
+[//]: # (There wasn't too much permanent cleaning done to either dataset. Based off the abundance of null values for some of the columns, I made subsets of the data for non-null values to use for visualizations.) 
 
 # [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
 
