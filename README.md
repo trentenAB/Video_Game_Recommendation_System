@@ -51,7 +51,10 @@ The duplicates were dropped, as well as for the rest of the dataset, and the ids
 
 # [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
 The Game Set was mainly used for the visualizations. As mentioned before, because of the large percentage of null-values for columns like `ESRBs`, subsets created. Here is a visualization I thought to be the most interesting. 
-![Meta]
+
+![Critic and User Ratings 1999-2022](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/CriticScores%20vs%20UserScores.png)
+
+Here we can see the obvious decline in game ratings throughout the 2000s. Then sometime during 2012, we can see a fairly large diverge between user and critic scores. One could speculate that these trends were signs of cultural shifts in the gaming community and possibly beyond.   
 
 # [Pre-Processing/Modeling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Preprocess%20and%20Modeling.ipynb)
 
