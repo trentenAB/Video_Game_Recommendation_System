@@ -37,7 +37,7 @@ There wasn't too much permanent cleaning done to either dataset. For the Game Se
 
 ![Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png)
 
-Based off the abundance of null values for some of the columns, I made subsets of the data with the non-null values to use for visualizations. This can be seen more clearly in the EDA notebook.  
+Based off the abundance of null values for some of the columns, I made subsets of the data with the non-null values to use for visualizations. This can be seen more clearly in the [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA) notebook.  
 
 [//]: # (Put pictures of this process)
 
