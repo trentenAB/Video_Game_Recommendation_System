@@ -27,13 +27,18 @@ The data was scraped off of MetaCritic's [Best Games of All Time](https://www.me
 - `summary` = Summary of game
 __________________________________________________________________________________
 ### Review Set
-- `user` = User id
+- `ids` = User id
 - `game` = Game Title
 - `rating` = User's score of game
 - `review` = User's review
 
 # [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)
-[//]: # (There wasn't too much permanent cleaning done to either dataset. Based off the abundance of null values for some of the columns, I made subsets of the data for non-null values to use for visualizations.) 
+There wasn't too much permanent cleaning done to either dataset. For the Game Set, there was 11 entries where the `release_date` was not a date. 
+[//]: # (Put pictures of this process)
+For the Review Set, there were 10 entries where the user name was null. These happened to be pairs of duplicates. 
+![image](https://user-images.githubusercontent.com/89433717/170889375-2d11cefa-9ab3-42a3-bd51-1f414fb470f5.png)
+
+Based off the abundance of null values for some of the columns, I made subsets of the data with the non-null values to use for visualizations. 
 
 # [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
 
