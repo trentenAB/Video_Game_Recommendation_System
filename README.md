@@ -50,7 +50,8 @@ The duplicates were dropped, as well as for the rest of the dataset, and the ids
 ![image](https://user-images.githubusercontent.com/89433717/170890380-5cb4f4b0-7790-4be2-b814-a049d2fbebdf.png)
 
 # [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
-The Game Set was mainly used for the visualizations. As mentioned before, because of the large percentage of null-values for columns like `ESRBs`, subsets created. 
+The Game Set was mainly used for the visualizations. As mentioned before, because of the large percentage of null-values for columns like `ESRBs`, subsets created. Here is a visualization I thought to be the most interesting. 
+![Meta]
 
 # [Pre-Processing/Modeling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Preprocess%20and%20Modeling.ipynb)
 
