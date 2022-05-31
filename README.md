@@ -61,5 +61,5 @@ Here we can see the obvious decline in game ratings throughout the 2000s. Then s
 Both Content and Collaborative filtering were attempted. 
 <ins>__Content Filtering:___</ins>
 
-<ins>Collaborative Filtering:___</ins>
+__<ins>Collaborative Filtering:</ins>__
 
