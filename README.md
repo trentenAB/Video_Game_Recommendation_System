@@ -8,7 +8,7 @@ The data was scraped off of MetaCritic's [Best Games of All Time](https://www.me
 - playsound: For playing a notification sound after interruption or completion of scraping
 - yagmail: For sending an email after interruption or completion of scraping
 - concurrent.futures: For greatly reducing scraping time. It utilizes at most 32 CPU cores for executing calls asynchronously. 
-
+__________________________________________________________________________________________
 # [Data](https://www.kaggle.com/datasets/trentenberam/metacritic-games-all-time)
 ### Game Set
 - `title` = Game Title
@@ -25,13 +25,13 @@ The data was scraped off of MetaCritic's [Best Games of All Time](https://www.me
 - `user_reviews` = Number of user reviews 
 - `num_players` = Description of how many players allowed on game
 - `summary` = Summary of game
-__________________________________________________________________________________
+
 ### Review Set
 - `ids` = User id
 - `game` = Game Title
 - `rating` = User's score of game
 - `review` = User's review
-
+__________________________________________________________________________________________
 # [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)
 There wasn't too much permanent cleaning done to either dataset. For the Game Set, there were 11 entries where the `release_date` value was not a date. Some of them also happened to be the summary of that game. Because there were 11 instances, I manually searched the release date of each game, inserted it, and updated the summaries as needed. I was then able to convert `release_date` to a datetime column. 
 
@@ -48,14 +48,14 @@ For the Review Set, there were 10 entries where the user name was null. These ha
 The duplicates were dropped, as well as for the rest of the dataset, and the ids were used in lieu of the user_names. 
 
 ![Reviews.info()](https://user-images.githubusercontent.com/89433717/170890380-5cb4f4b0-7790-4be2-b814-a049d2fbebdf.png)
-
+__________________________________________________________________________________________
 # [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
 The Game Set was mainly used for the visualizations. As mentioned before, because of the large percentage of null-values for columns like `ESRBs`, subsets were created for each visual. Here is a visualization I thought to be the most interesting. 
 
 ![Critic and User Ratings 1999-2022](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/CriticScores%20vs%20UserScores.png)
 
 Here we can see the obvious decline in game ratings throughout the 2000s. Then sometime during 2012, we can see a fairly large diverge begin between user and critic scores. One could speculate that these trends were signs of cultural shifts within and outside the gaming community.   
-
+__________________________________________________________________________________________
 # [Pre-Processing/Modeling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Preprocess%20and%20Modeling.ipynb)
 
 Both Content and Collaborative filtering were attempted.
