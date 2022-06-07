@@ -61,7 +61,20 @@ Here we can see the obvious decline in game ratings throughout the 2000s. Then s
 Both Content and Collaborative filtering were attempted.
 
 __<ins>Content Filtering:</ins>__
-- Genre Similarities: Using the [Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png)
+- Genre Similarities: Using the `genre` feature of the [Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png), a dummy matrix was made for the all the titles and the respective genres. This is a matrix that only has 0 or 1 as values depending on if the game title contains the particular genre.    
+
+![genre dummy matrix](https://user-images.githubusercontent.com/89433717/172474691-673d65d1-7d49-412a-91e7-7affab0de030.png)
+
+
+[//]: # (Put pic of the dummy matrix)
+
+Using the dummy matrix, another matrix was created containing the [jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) coefficients for each game to every other game. This was made using scipy's [pdist](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html) and [squareform](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.squareform.html?highlight=squareform#scipy.spatial.distance.squareform) packages. With this matrix, one could look up the titles with the most similar genres. 
+
+![elden ring genre similarities](https://user-images.githubusercontent.com/89433717/172476244-f4045164-427e-41cb-8b96-f257783e2e59.png)
+
+But as we can see, due to the abundance of games and the lack of genres associated to each game, there will be many pairings where games have the exact same genres.
+
+
 
 __<ins>Collaborative Filtering:</ins>__
 
