@@ -3,13 +3,13 @@
 Contents:
 - [Collection](#collection)
 - [Data](#data)
- - [Game Set](#gameset)
- - [Review Set](#reviewset)
+  - [Game Set](#gameset)
+  - [Review Set](#reviewset)
 - [Wrangling](#wrangling)
 - [EDA](#eda)
 - [PreProcess/Modeling](#mod)
- - [Content Filtering](#contentf)
- - [Collaborative Filtering](#colabf)
+  - [Content Filtering](#contentf)
+  - [Collaborative Filtering](#colabf)
 
 # [Collection](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/scraping_meta.ipynb)<a id='collection'></a>
 The data was scraped off of MetaCritic's [Best Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List<br><br>
