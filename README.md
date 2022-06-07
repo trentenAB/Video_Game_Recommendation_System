@@ -1,7 +1,15 @@
 ![Banner](https://user-images.githubusercontent.com/89433717/170891205-463af589-40b0-4135-9141-66b115c70c7b.png)
 
 Contents:
-[Collection](#collection)
+- [Collection](#collection)
+- [Data](#data)
+ - [Game Set](#gameset)
+ - [Review Set](#reviewset)
+- [Wrangling](#wrangling)
+- [EDA](#eda)
+- [PreProcess/Modeling](#mod)
+ - [Content Filtering](#contentf)
+ - [Collaborative Filtering](#colabf)
 
 # [Collection](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/scraping_meta.ipynb)<a id='collection'></a>
 The data was scraped off of MetaCritic's [Best Games of All Time](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) List<br><br>
@@ -13,8 +21,8 @@ The data was scraped off of MetaCritic's [Best Games of All Time](https://www.me
 - yagmail: For sending an email after interruption or completion of scraping
 - concurrent.futures: For greatly reducing scraping time. It utilizes at most 32 CPU cores for executing calls asynchronously. 
 __________________________________________________________________________________________
-# [Data](https://www.kaggle.com/datasets/trentenberam/metacritic-games-all-time)
-### Game Set
+# [Data](https://www.kaggle.com/datasets/trentenberam/metacritic-games-all-time)<a id='data'></a>
+### Game Set<a id='gameset'></a>
 - `title` = Game Title
 - `release_date` = Release Date (Games on multiple platforms will have a seperate row per release date)
 - `genre` = Genres
@@ -30,13 +38,13 @@ ________________________________________________________________________________
 - `num_players` = Description of how many players allowed on game
 - `summary` = Summary of game
 
-### Review Set
+### Review Set<a id='reviewset'></a>
 - `ids` = User id
 - `game` = Game Title
 - `rating` = User's score of game
 - `review` = User's review
 __________________________________________________________________________________________
-# [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)
+# [Wrangling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Wrangling.ipynb)<a id='wrangling'></a>
 There wasn't too much permanent cleaning done to either dataset. For the Game Set, there were 11 entries where the `release_date` value was not a date. Some of them also happened to be the summary of that game. Because there were 11 instances, I manually searched the release date of each game, inserted it, and updated the summaries as needed. I was then able to convert `release_date` to a datetime column. 
 
 ![Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png)
@@ -53,18 +61,18 @@ The duplicates were dropped, as well as for the rest of the dataset, and the ids
 
 ![Reviews.info()](https://user-images.githubusercontent.com/89433717/170890380-5cb4f4b0-7790-4be2-b814-a049d2fbebdf.png)
 __________________________________________________________________________________________
-# [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
+# [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)<a id='eda'></a>
 The Game Set was mainly used for the visualizations. As mentioned before, because of the large percentage of null-values for columns like `ESRBs`, subsets were created for each visual. Here is a visualization I thought to be the most interesting. 
 
 ![Critic and User Ratings 1999-2022](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/VGR%20EDA/CriticScores%20vs%20UserScores.png)
 
 Here we can see the obvious decline in game ratings throughout the 2000s. Then sometime during 2012, we can see a fairly large diverge begin between user and critic scores. One could speculate that these trends were signs of cultural shifts within and outside the gaming community.   
 __________________________________________________________________________________________
-# [Pre-Processing/Modeling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Preprocess%20and%20Modeling.ipynb)
+# [Pre-Processing/Modeling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Preprocess%20and%20Modeling.ipynb)<a id='mod'></a>
 
 Both Content and Collaborative filtering were attempted.
 
-__<ins>Content Filtering:</ins>__
+__<ins>Content Filtering:</ins>__<a id='contentf'></a>
 - <ins>Genre Similarities</ins>: Using the `genre` feature of the [Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png), a dummy matrix was made for the all the titles and the respective genres. This is a matrix that only has 0 or 1 as values depending on if the game title contains the particular genre.    
 
 ![genre dummy matrix](https://user-images.githubusercontent.com/89433717/172474691-673d65d1-7d49-412a-91e7-7affab0de030.png)
@@ -81,5 +89,5 @@ But as we can see, due to the abundance of games and the lack of genres associat
 
 
 
-__<ins>Collaborative Filtering:</ins>__
+__<ins>Collaborative Filtering:</ins>__<a id='colabf'></a>
 
