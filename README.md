@@ -43,11 +43,11 @@ Based off the abundance of null values for some of the columns, I made subsets o
 
 For the Review Set, there were 10 entries where the user name was null. These happened to be pairs of duplicates and somehow pandas was able to distinguish between the different null-values.
 
-![image](https://user-images.githubusercontent.com/89433717/170890328-bb1610a9-0ccf-4223-ac77-849c0a49e3f0.png)
+![negative ids](https://user-images.githubusercontent.com/89433717/170890328-bb1610a9-0ccf-4223-ac77-849c0a49e3f0.png)
 
 The duplicates were dropped, as well as for the rest of the dataset, and the ids were used in lieu of the user_names. 
 
-![image](https://user-images.githubusercontent.com/89433717/170890380-5cb4f4b0-7790-4be2-b814-a049d2fbebdf.png)
+![Reviews.info()](https://user-images.githubusercontent.com/89433717/170890380-5cb4f4b0-7790-4be2-b814-a049d2fbebdf.png)
 
 # [EDA](https://github.com/trentenAB/Video_Game_Recommendation_System/tree/main/notebooks/VGR%20EDA)
 The Game Set was mainly used for the visualizations. As mentioned before, because of the large percentage of null-values for columns like `ESRBs`, subsets were created for each visual. Here is a visualization I thought to be the most interesting. 
@@ -61,7 +61,7 @@ Here we can see the obvious decline in game ratings throughout the 2000s. Then s
 Both Content and Collaborative filtering were attempted.
 
 __<ins>Content Filtering:</ins>__
-- Genre Similarities: Using the Game Set
+- Genre Similarities: Using the [Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png)
 
 __<ins>Collaborative Filtering:</ins>__
 
