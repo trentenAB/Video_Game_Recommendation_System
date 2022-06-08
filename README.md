@@ -105,3 +105,4 @@ Collaborative Filtering is the process of filtering items based off the feedback
 
 >Models from the [Scikit-Surprise](https://surprise.readthedocs.io/en/stable/) library are shown here. Models were also created from scratch for learning purposes in the notebook. 
 
+The algorithms used from the Surprise packages were NormalPredictor, KNNBasic, and SVD. Using the [Review Set](https://user-images.githubusercontent.com/89433717/170890380-5cb4f4b0-7790-4be2-b814-a049d2fbebdf.png)
