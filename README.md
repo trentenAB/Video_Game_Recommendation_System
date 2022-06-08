@@ -72,7 +72,7 @@ ________________________________________________________________________________
 
 Both Content and Collaborative filtering were attempted.
 
-## __<ins>Content Filtering:</ins>__<a id='contentf'></a>
+## __<ins>Content Filtering</ins>__<a id='contentf'></a>
 
 <ins>Genre Similarities</ins>
 
@@ -90,9 +90,9 @@ Using the dummy matrix, another matrix was created containing the [jaccard simil
 
 But as we can see, due to the abundance of games and the lack of genres associated to each game, there will be many pairings where games have the exact same genres.
 
-<ins>Summary Comparisons</ins>: 
+<ins>Summary Comparisons</ins> 
 
 
 
-## __<ins>Collaborative Filtering:</ins>__<a id='colabf'></a>
+## __<ins>Collaborative Filtering</ins>__<a id='colabf'></a>
 
