@@ -72,8 +72,9 @@ ________________________________________________________________________________
 
 Both Content and Collaborative filtering were attempted.
 
-__<ins>Content Filtering:</ins>__<a id='contentf'></a>
-<ins>Genre Similarities</ins>: Using the `genre` feature of the [Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png), a dummy matrix was made for the all the titles and the respective genres. This is a matrix that only has 0 or 1 as values depending on if the game title contains the particular genre.    
+## __<ins>Content Filtering:</ins>__<a id='contentf'></a>
+<ins>Genre Similarities</ins> 
+Using the `genre` feature of the [Game Set](https://user-images.githubusercontent.com/89433717/170890214-e72c1d23-f225-42a5-928b-1dad096db551.png), a dummy matrix was made for the all the titles and the respective genres. This is a matrix that only has 0 or 1 as values depending on if the game title contains the particular genre.    
 
 ![genre dummy matrix](https://user-images.githubusercontent.com/89433717/172474691-673d65d1-7d49-412a-91e7-7affab0de030.png)
 
@@ -91,5 +92,5 @@ But as we can see, due to the abundance of games and the lack of genres associat
 
 
 
-__<ins>Collaborative Filtering:</ins>__<a id='colabf'></a>
+## __<ins>Collaborative Filtering:</ins>__<a id='colabf'></a>
 
