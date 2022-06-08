@@ -88,7 +88,7 @@ Using the `genre` feature of the [Game Set](https://user-images.githubuserconten
 Using the dummy matrix, another matrix was created containing the [jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) coefficients for each game to every other game. This was made using scipy's [pdist](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html) and [squareform](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.squareform.html?highlight=squareform#scipy.spatial.distance.squareform) packages. With this matrix, one could look up the titles with the most similar genres. 
 
 ![elden ring genre similarities](https://user-images.githubusercontent.com/89433717/172476244-f4045164-427e-41cb-8b96-f257783e2e59.png)<br>
-*The scores of 1 mean all these games have the same exact genres as Elden Ring*
+*The scores of 1 mean all these games have the exact same genres as Elden Ring*
 
 But as we can see, due to the abundance of games and the lack of genres associated to each game, there will be many pairings where games have the exact same genres.
 __________________________________________________________________________________________
