@@ -110,3 +110,15 @@ The models used from the Surprise packages were NormalPredictor, KNNBasic, and S
 ![model rmse scores](https://user-images.githubusercontent.com/89433717/172735335-94407532-343e-493a-8a58-675125a810ee.png)<br>
 *SVD performed the best with an RMSE score of about 2.2. This means we would expect the model to be off, on average, by 2.2 rating points for any further rating predictions made using this model*
 
+After tuning the model, it was tested on a random user from the set in which it made predictions for. The user's ratings and games are shown below.
+
+![test user ratings](https://user-images.githubusercontent.com/89433717/172736260-a60617e1-52eb-40ff-bd3b-be31d5b8f066.png)
+
+Here are the predictions from the tuned SVD model.
+
+![predictions1](https://user-images.githubusercontent.com/89433717/172736640-933521b5-d5ca-4023-9f10-b621434ecfff.png)
+![predictions2](https://user-images.githubusercontent.com/89433717/172736672-2b31e753-5cc4-4bbb-af55-a7dbca9fb74c.png)
+
+
+
+
