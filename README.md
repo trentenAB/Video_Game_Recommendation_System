@@ -92,6 +92,8 @@ But as we can see, due to the abundance of games and the lack of genres associat
 
 <ins>Summary Comparisons</ins> 
 
+Similar to the genre comparisons, the summaries for each of the games were vectorized but to a much higher degree. Using sklearn's [TFIDVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
+
 
 
 ## __<ins>Collaborative Filtering</ins>__<a id='colabf'></a>
