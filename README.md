@@ -68,11 +68,13 @@ The Game Set was mainly used for the visualizations. As mentioned before, becaus
 
 Here we can see the obvious decline in game ratings throughout the 2000s. Then sometime during 2012, we can see a fairly large diverge begin between user and critic scores. One could speculate that these trends were signs of cultural shifts within and outside the gaming community.   
 __________________________________________________________________________________________
+
 # [Pre-Processing/Modeling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Preprocess%20and%20Modeling.ipynb)<a id='mod'></a>
 
 >Both Content and Collaborative filtering were attempted.
 
 ## __<ins>Content Filtering</ins>__<a id='contentf'></a>
+Content Filtering is the process of filtering files or documents based of their content. In terms of recommender systems, content filtering can be applied when users want a specific feature(s) in their selection of items. One common area for content filtering is on streaming services, such as HBO Max. Here, users can filter out movies, shows, etc. by the genres of their choice. On Metacritic, a user can filter the games based off the genres the website has associated the games with. 
 
 <ins>Genre Similarities</ins>
 
@@ -96,8 +98,10 @@ Similar to the genre comparisons, the summaries for each of the games were vecto
 
 ![elden ring summary similarities](https://user-images.githubusercontent.com/89433717/172721629-b653076c-b9a3-4385-b49c-8405e4249035.png)<br>
 *The closer the score is to 1, the more similar the summaries*
-
-
+__________________________________________________________________________________________
 
 ## __<ins>Collaborative Filtering</ins>__<a id='colabf'></a>
+Collaborative Filtering is the process of filtering items based off the feedback of similar users. Unlike Content Filtering, collaborative filtering is only used with recommender systems as it requires the input of other users. It is also more powerful than content filtering as collaborative recommendations can be a lot more specific. 
+
+>Models from the [Scikit-Surprise](https://surprise.readthedocs.io/en/stable/) library are shown here. Models were also created from scratch for learning purposes in the notebook. 
 
