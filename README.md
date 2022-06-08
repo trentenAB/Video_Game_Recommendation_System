@@ -70,7 +70,7 @@ Here we can see the obvious decline in game ratings throughout the 2000s. Then s
 __________________________________________________________________________________________
 # [Pre-Processing/Modeling](https://github.com/trentenAB/Video_Game_Recommendation_System/blob/main/notebooks/Preprocess%20and%20Modeling.ipynb)<a id='mod'></a>
 
-Both Content and Collaborative filtering were attempted.
+>Both Content and Collaborative filtering were attempted.
 
 ## __<ins>Content Filtering</ins>__<a id='contentf'></a>
 
