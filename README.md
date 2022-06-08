@@ -89,7 +89,7 @@ Using the dummy matrix, another matrix was created containing the [jaccard simil
 *The scores of 1 mean all these games have the same exact genres as Elden Ring*
 
 But as we can see, due to the abundance of games and the lack of genres associated to each game, there will be many pairings where games have the exact same genres.
-
+__________________________________________________________________________________________
 <ins>Summary Comparisons</ins> 
 
 Similar to the genre comparisons, the summaries for each of the games were vectorized but to a much higher degree. This was done using sklearn's [TfidfVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) and [cosine similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) packages. With the matrices created, we are able to find games with similar summaries. Keep in mind, the similarity scores are weighted. This means the scores don't represent one game summary's direct similarity percentage to another but how similar the summaries are compared to the rest of the summaries in the set. 
