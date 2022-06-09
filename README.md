@@ -116,8 +116,7 @@ After tuning the model, it was tested on a random user from the set in which it 
 
 Here are the predictions from the tuned SVD model.
 
-![predictions1](https://user-images.githubusercontent.com/89433717/172736640-933521b5-d5ca-4023-9f10-b621434ecfff.png)
-![predictions2](https://user-images.githubusercontent.com/89433717/172736672-2b31e753-5cc4-4bbb-af55-a7dbca9fb74c.png)
+![predictions](https://user-images.githubusercontent.com/89433717/172736964-7060eaf3-8286-4837-a269-06a96efd366d.png)
 
 
 
