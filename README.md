@@ -107,7 +107,7 @@ Collaborative Filtering is the process of filtering items based off the feedback
 
 The models used from the Surprise packages were NormalPredictor, KNNBasic, and SVD. Focusing on the `rating` feature of the [Review Set](https://user-images.githubusercontent.com/89433717/170890380-5cb4f4b0-7790-4be2-b814-a049d2fbebdf.png), these models predicted ratings of games that were not rated by the specific user. At the same time, the models also recalculate scores that were already given by users. These recaculated scores are used to measure the accuracy of each model. Specifically, the Root Mean Square Error was used as the metric. RMSE measures the error between the actual scores and the predicted scores. Generally, the lower the RMSE the better. Here are the RMSE scores for the 3 models. 
 
-![model rmse scores](https://user-images.githubusercontent.com/89433717/172735335-94407532-343e-493a-8a58-675125a810ee.png)<br>
+![model rmse scores](https://user-images.githubusercontent.com/89433717/173896671-bc782098-61a6-423a-b63d-073cb9b3431f.png)<br>
 *SVD performed the best with an RMSE score of about 2.2. This means we would expect the model to be off, on average, by 2.2 rating points for any further rating predictions made using this model*
 
 After tuning the model, it was tested on a random user from the set in which it made predictions for. The user's ratings and games are shown below.
